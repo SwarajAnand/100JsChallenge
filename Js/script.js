@@ -5,7 +5,7 @@ const container = document.getElementById("container");
 const tableView = (pageData) => {
   const table = document.createElement("table");
   pageData.forEach((val) => {
-    console.log(val);
+    // console.log(val);
     const tableRow = document.createElement("tr");
     const tableData = `
       <td style="font-weight: bold">${val.id}</td>

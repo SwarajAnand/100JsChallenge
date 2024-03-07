@@ -1,22 +1,45 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
+body{
+    font-family: "Montserrat", sans-serif;
+}
+#mainContainer{
+    display: flex;
+    width: 100%;
+    border: 1px solid red;
+    /* position: fixed; */
+}
+
+.leftContainer {
+    width: 17%;
+    /* width: 150px; */
+    border: 1px solid red;
+    height: 50px;
+    position: fixed;
+    background-color: white;
+}
+
+.rightContainer{
+    width: 83%;
+    border: 1px solid green;
+    margin-left: 17.3%;
+}
+
+.rightContainer div{
+    border: 1px solid pink;
+    padding: 0 10%;
+}
 h1{
     background: #CF0909;
     background: linear-gradient(to right, #CF0909 0%, #000000 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+}
 
-}
-body{
-    width: 90%;
-    margin: auto;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-}
 
 #container{
     padding-top: 40px;
