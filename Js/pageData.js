@@ -20,8 +20,7 @@ const pageData = [
   {
     id: 4,
     projectName: "Which Key is Pressed",
-    projectLink:
-      "https://github.com/SwarajAnand/typeWritter/deployments/github-pages",
+    projectLink: "https://swarajanand.github.io/typeWritter/",
     githubLink: "https://github.com/SwarajAnand/typeWritter",
   },
   {
